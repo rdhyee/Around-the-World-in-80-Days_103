@@ -34,13 +34,13 @@ deploy:
   skip_cleanup: true
   provider: releases
   api_key:
-    secure: xgNhp8pGoGOfQ2hxgOeYi2Tx9MaopumORYLNQmB56fSkxCT8j/EQ01hkOQYMRHWuFI0oCc95wwWhIjzpXSGhd/hVLp5M9uZUgCYcNJMo7CQH+Bjixsj0hAAr/Np0KJJNB7sSfZP8fg7i0BgqZYDK6wiDMIdDsjSjVHzWThvF63n35JSARvehnVWlhwko1Hk3ZPtnQMlRf6UWXL9drqMbfOaM2INlNkiEo75nXbpmcKfL4Zu92i/x7JB5rX2XGTTWglMwfzc1casUSYaDKgzcEz+9R4scPKrILxCSM3fGJn3huyInzo0+rX3GtksnVIOMbs3ej+EqmYKRVen7DDpnYLgZWaiBWkxSY+U3kiLcIdHu7IiBaXF45dosgQon/HFAb4JxFkqyZ+2JQpsUqrpbCd0gXLQBDD21paKvFqiIzy99iFKZs2qNCvcu1+9gOnLrxz2MtSWtYcvfaWQtZE/6yPG7Ca4cAc73SRCh3EHiqZy5DmB8JLhZ6gkoDyaUbuF1Bnprt79adibO/6eAzmDZZxOPxAKT4d/nRKYZjFLnMk6+XzMpUprT3mAPJKsX4L00YbLS1vuKUHo9gqyM3XcW/X2GiExbxSXPBpM1ObG+bl1TfPRxK1k33QnGRZRsr3bau84azQDIySD0coVVrpxQcKfGegSGlpmEW1kbyQEXSz0=
+    secure: ng8f4L0Y2NeguQJlsDZ/Y3R7mW3xakRTAy+dPCoiEVGI8YM1GcBU0/bJ/4+zN2uNaPfriV4qZRR4IG7tpw9ihQz7JkyDbh3oIQMhomniT7psCtHBVFqDSo/8rGqoRBQogCCptTGChlbksCzAz+P0ZxSMYSESqpdAXmE4JizvnpbZP+HOW1WWHFWkBDi/y4pmlegckrUgwe/ElzijpL1PCi9+xxvRVTGYy0AbT4Gc+Neu9oSy9cQR41XBj5BZPD0kbkkFK4M2p8LMCv/aSf9RNZuBQY8Fn+Oe05D+n6Sk1mmV5LAnDvhNl+A+5y/lYg6TXzbMf6TyXSq/25iavW26F+6AhlBdYVhTcvRTNC/Z9JCI7XOudEtZBonJudbQJzuhqG4MZCW6N57kx+wr3MvrlIqCg2pH5oYoG7sE9vXo1maDnSTIXsMSsPNzt7UZ9AFM4898KUQGJGbrq6K+zf+rBocjbh3ZLUQBklO+hOblsY60iLJKMNtY/cztgVw58yiaAQHkTp/3mGpjh/cYR4V/4Dpo4OaBPsQZZaKoIyE8aG5lFKWSl33bVT43IhqL2/prjaRF/lR5rz1rFuTNKGNU1gqYAz3zwFifb0vmdIEYns1dwMNkJebsofWLnBQHra6LPajl/pBwsmzMf8sGt2jVXog6wmnF+qst3wwNCDPehLE=
   file:
     - book.epub
     - book.mobi
     - book.pdf
   "on":
-    repo: rdhyee/Around-the-World-in-Eighty-Days_103
+    repo: rdhyee/Around-the-World-in-80-Days_103
 addons:
   apt:
     packages:
